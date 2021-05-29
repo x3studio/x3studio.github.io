@@ -1,0 +1,407 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<HTML>
+<HEAD>
+<TITLE>Motel Web-App</TITLE>
+<META NAME="GENERATOR" CONTENT="MAX's HTML Beauty++ 2004">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link rel="shortcut icon" type="image/x-icon" href="https://lh3.googleusercontent.com/proxy/ko5ChL7l23J6NeJ5WfuJz-vhtpDgOxAseInPj8Xe6SiMIvinXXu4bC2XYzRX7Qpzg5KNrIKWlRlNvKQOXb9CYPmQtgJl4A2iSuFqfDQglEAVv5Emh1UWEmr8waa0yTWuYyMKuOXBIido-cOuLfLh3_SW" /> 
+<link href="https://fonts.googleapis.com/css2?family=Stardos+Stencil&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Amarante&family=Stardos+Stencil&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Buda:wght@300&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Londrina+Shadow&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Jacques+Francois+Shadow&family=Lancelot&display=swap" rel="stylesheet">
+<SCRIPT LANGUAGE="JavaScript"> 
+<!-- Disable 
+function disableselect(e){ 
+return false 
+} 
+
+function reEnable(){ 
+return true 
+} 
+
+//if IE4+ 
+document.onselectstart=new Function ("return false") 
+document.oncontextmenu=new Function ("return false") 
+//if NS6 
+if (window.sidebar){ 
+document.onmousedown=disableselect 
+document.onclick=reEnable 
+} 
+//--> 
+</script> 
+<style>
+body {
+	margin: 0;
+	padding: 0;
+	background:url(https://1.bp.blogspot.com/-y8dWNwMp-5w/YLKcWnE2qhI/AAAAAAAAKJU/SfrILbn31z0_okongaYM5azORkn3uuk0wCLcBGAsYHQ/s0/274a5b0f0b.jpg) fixed;
+	}
+	
+.all{
+     width:1000px;
+     border-left:3px solid white; border-right:3px solid white;
+     margin:0 auto;
+}
+
+.top{
+     width:1000px;
+     margin:0 auto;
+     height:400px;
+     background:url(https://cf.bstatic.com/images/hotel/max1024x768/243/243356567.jpg);background-size:100% 100%;
+     align-items: center;
+     display: flex;
+     justify-content: center;
+     margin:0 auto;
+     border:;
+}
+.sub{
+     width:1000px;
+     margin:0 auto;
+     padding:;
+     background:black;
+     align-items: center;
+     display: flex;
+     color:#999;
+     justify-content: center;
+     margin:0 auto;
+     font-size:20px;
+     font-family: 'Stardos Stencil', cursive;
+}
+.sub2{
+     width:1000px;
+     margin:0 auto;
+     background:#990000;
+     align-items: center;
+     display: flex;
+     justify-content: center;
+     margin:0 auto;
+}
+.sub2 table{
+     font-family: 'Amarante', cursive;
+     font-family: 'Stardos Stencil', cursive;
+     font-size:35px;
+     color:#999;
+	  padding:2px;	 
+	 }
+.sub2 table th{
+	 background:#999;
+	 border:2px solid white;
+	 margin-left:10px;
+	 }	 
+.sub2 table th:hover{background:black; color-items:white;}
+.sub2 table th a:hover{color:white;}	 
+.main{
+     width:1000px;
+     margin:0 auto;
+     background:#fff;
+     padding:0;
+}
+.main table th{
+     padding:0px;
+     margin:0px;
+}
+.bot{
+     width:1000px;
+     margin:0 auto;
+     background:black;
+     align-items: center;
+     display: flex;
+     justify-content: center;
+     margin:0 auto;
+     color:#999;
+     font-size:15px;
+     font-family: 'Amarante', cursive;
+     font-family: 'Stardos Stencil', cursive;
+}
+
+h5 {
+  font-size: 2.5em;
+  margin: 0 auto;
+  font-family: 'Stardos Stencil', cursive;
+  line-height: 1.3; color:#fff;
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 #666, 0 -2px black;
+  }	
+h4{font-family: 'Lancelot', cursive; font-size:25px; color:#333; text-align: justify; padding:15px; margin-top:-20px;}  
+h3{font-family: 'Buda', cursive; padding:10px; text-align: justify; margin-top:-20px;}  
+h2{font-family: 'Londrina Shadow', cursive; font-size:39px; padding:0px; justify-content: center; align-items: center;} 
+a{text-decoration: none; color:black;}   
+p{
+  font-size:20px;
+  font-family: 'Stardos Stencil', cursive;
+  color:black;
+  margin-top:-10px;
+  
+}
+.imagefloat {
+	float: left;
+	padding: 2px;
+	border:;
+	margin: 0 0 10px 10px;
+	}
+h1{font-family: 'Amarante', cursive;
+     font-family: 'Stardos Stencil', cursive;
+     font-size:35px;
+     color:#666;
+	 padding:;}
+	 
+	 
+.content__item {
+  width:100%; height:auto;
+  display: none;
+}
+
+.content__item.is-active {
+  display: block;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.mod{ height:100px;  padding:0;margin:0;}
+.mod2{background:#999; width:400px; border-top:5px solid #14557a;; border-bottom:5px solid #14557a;; border-left:5px solid #9FA41D; border-right:5px solid #9FA41D; padding:5px; border-radius:25px; margin:0; font-family: 'Stardos Stencil', cursive; font-size:35px;}
+.mod2:hover{background:white;}
+	
+.image {
+  width: 100%;
+  height: 600px;
+  background-size: cover;
+  border-radius:;
+  margin: 0;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0px 0px 10px #000;
+}
+
+.image .all {
+  transform: translateY(100%);
+  bottom: 0;
+  box-shadow: 0px 0px 10px black;
+  width: 100%;
+  position: absolute;
+  overflow: hidden;
+  transition: 0.5s;
+  z-index: 1;
+  opacity: 0;
+}
+
+.image .text {
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.6);
+  font-family: "Bowlby One SC", cursive;
+}
+
+.image .bg {
+  width: 100%;
+  height: 600px;
+  position: absolute;
+  z-index: -1;
+  bottom: 0;
+  background-size: cover;
+  border-radius: 10px;
+  filter: blur(5px);
+}
+
+.image:hover .all {
+  transform: translateY(0%);
+  opacity: 1;
+}
+.title{background-color: rgba(0, 0, 0, 0.3);}
+</style>
+<script>
+  window.console = window.console || function(t) {};
+</script>
+<script>
+  if (document.location.search.match(/type=embed/gi)) {
+    window.parent.postMessage("resize", "*");
+  }
+</script>
+</HEAD>
+
+<BODY>
+<div class='top'></div>
+<div class='sub'>&#10032; &#10032; &#10032; web-app &#10032; &#10032; &#10032;</div>
+<div class='sub2'><table width='100%' border=0>
+<th width=''><a data-tab="home" href="#home">HOME</a></th>
+<th width=''><a data-tab="empresa" href="#empresa">MOTEL</a></th>
+<th width=''><a data-tab="servicos" href="#servicos">SUÍTES</a></th>
+<th width=''><a data-tab="local" href="#local">LOCAL</a></th>
+<th width=''><a data-tab="contato" href="#contato">CONTATO</a></th>
+</table></div>
+<section class="content">
+<div class='main'>
+<div class="content__item" data-content="home"><br><br>
+<center /><a href="https://calendly.com/acconstancia/agendamento-online"><img src="https://1.bp.blogspot.com/-kj5SNcm7p34/YGslyjbeMBI/AAAAAAAAKG4/GcaoPTc8tk0cZzc9fw9TFeHva9Zuhl-BgCLcBGAsYHQ/s0/Reserva.jpg" alt="" width="400" height="110" style=''></a><br><br>
+<img src="https://www.motelguia.com.br/assets/img/basic/logo.png" alt="" width="250" height="250"  style="border-radius:50%; border:2px solid #990000;" >
+</div>
+
+<div class="content__item" data-content="empresa">
+<img src="https://media1.thehungryjpeg.com/thumbs2/ori_49646_cf8e67518eec858cf1441c86c06c559681abe224_motel-sign-party-flyer.jpg" alt="" width="100%" height="600"><br><br>
+</div>
+
+<div class="content__item" data-content="servicos">
+<div class="image" style="background-image: url(https://www.guiademoteis.com.br/Images/moteis/1601-Motel-Guia/suites/8110-Super-Luxo/fotos/foto2-suites.jpg);">
+  <div class="title"><center /><h5>SUÍTE GUIA PREMIUM</h5></div>
+    <div class="all">
+      <div class="text">
+        <h2>PREÇOS E PERÍODOS</h2>
+        <h3>
+2ª APÓS AS 6H ATÉ 6ª ÀS 6H - 2H	R$ 49,90<br>
+2ª APÓS AS 6H ATÉ 6ª ÀS 6H - 3H	R$ 64,90<br>
+2ª APÓS AS 6H ATÉ 6ª ÀS 6H - 12H	R$ 99,90<br>
+6ª APÓS AS 6H ATÉ 2ª ÀS 6H, FERIADOS E VÉSPERAS - 2H	R$ 59,90<br>
+6ª APÓS AS 6H ATÉ 2ª ÀS 6H, FERIADOS E VÉSPERAS - 3H	R$ 74,90<br>
+DOM APÓS AS 6H ATÉ 2ª ÀS 6H - 12H	R$ 109,90</h3>
+<h2>PERNOITES</h2>
+<h3>
+6ª, SAB, VÉSP. E FERIADOS A PARTIR DAS 2H ATÉ AS 12H	R$ 109,90</h3>
+<h2>ESSA SUÍTE TEM:</h2>
+<h3 />
+AR-CONDICIONADO, DUCHA, ESPELHO NO TETO, FRIGOBAR, GARAGEM COLETIVA, INTERNET WI-FI (SEM FIO), MESA PARA REFEIÇÕES, SECADOR DE CABELO, SOM AM/FM COM ENTRADA USB E BLUETOOTH, TV 32''
+      </div>
+      <div class="bg" style="background-image: url(https://www.guiademoteis.com.br/Images/moteis/1601-Motel-Guia/suites/8110-Super-Luxo/fotos/foto2-suites.jpg);"></div>
+    </div>
+</div>
+
+<div class="image" style="background-image: url(https://www.guiademoteis.com.br/Images/moteis/1601-Motel-Guia/suites/8111-Hidro/fotos/foto11-suites.jpg);">
+  <div class="title"><center /><h5>SUÍTE GUIA HIDRO</h5></div>
+    <div class="all">
+      <div class="text">
+        <h2>PREÇOS E PERÍODOS</h2>
+        <h3>
+2ª APÓS AS 6H ATÉ 6ª ÀS 6H - 2H	R$ 59,90<br>
+2ª APÓS AS 6H ATÉ 6ª ÀS 6H - 3H	R$ 74,90<br>
+2ª APÓS AS 6H ATÉ 6ª ÀS 6H - 12H	R$ 109,90<br>
+6ª APÓS AS 6H ATÉ 2ª ÀS 6H, FERIADOS E VÉSPERAS - 2H	R$ 69,90<br>
+6ª APÓS AS 6H ATÉ 2ª ÀS 6H, FERIADOS E VÉSPERAS - 3H	R$ 84,90<br>
+DOM APÓS AS 6H ATÉ 2ª ÀS 6H - 12H	R$ 119,90</h3>
+<h2>PERNOITES</h2>
+<h3>
+6ª, SAB, VÉSP. E FERIADOS A PARTIR DAS 2H ATÉ AS 12H	R$ 119,90</h3>
+<h2>ESSA SUÍTE TEM:</h2>
+<h3 />
+AR-CONDICIONADO, DUCHA, ESPELHO NO TETO, FRIGOBAR, GARAGEM COLETIVA, HIDRO DUPLA, INTERNET WI-FI (SEM FIO), MESA PARA REFEIÇÕES, SECADOR DE CABELO, SOM AM/FM COM ENTRADA USB E BLUETOOTH, TV 32''
+      </div>
+      <div class="bg" style="background-image: url(https://www.guiademoteis.com.br/Images/moteis/1601-Motel-Guia/suites/8111-Hidro/fotos/foto11-suites.jpg);"></div>
+    </div>
+</div>
+
+<div class="image" style="background-image: url(https://www.guiademoteis.com.br/Images/moteis/1601-Motel-Guia/suites/16548-Guia-Especial/fotos/293d2b72-41a8-4f8b-98f8-064a58f86869-suites.jpg);">
+  <div class="title"><center /><h5>SUÍTE GUIA HIDRO ESPECIAL</h5></div>
+    <div class="all">
+      <div class="text">
+        <h2>PREÇOS E PERÍODOS</h2>
+        <h3>
+2ª APÓS AS 6H ATÉ 6ª ÀS 6H - 2H	R$ 79,90<br>
+2ª APÓS AS 6H ATÉ 6ª ÀS 6H - 3H	R$ 104,90<br>
+2ª APÓS AS 6H ATÉ 6ª ÀS 6H - 12H	R$ 139,90<br>
+6ª APÓS AS 6H ATÉ 2ª ÀS 6H, FERIADOS E VÉSPERAS - 2H	R$ 89,90<br>
+6ª APÓS AS 6H ATÉ 2ª ÀS 6H, FERIADOS E VÉSPERAS - 3H	R$ 114,90<br>
+DOM APÓS AS 6H ATÉ 2ª ÀS 6H - 12H	R$ 149,90</h3>
+<h2>PERNOITES</h2>
+<h3>
+6ª, SAB, VÉSP. E FERIADOS A PARTIR DAS 2H ATÉ AS 12H	R$ 149,90</h3>
+<h2>ESSA SUÍTE TEM:</h2>
+<h3 />
+AR-CONDICIONADO, DUCHA, ESPELHO NO TETO, FRIGOBAR, GARAGEM COLETIVA, HIDRO DUPLA, INTERNET WI-FI (SEM FIO), MÁQUINA DE FUMAÇA, MESA PARA REFEIÇÕES, PISTA DE DANÇA, POLE DANCE, POLTRONA ERÓTICA, SECADOR DE CABELO, SOM AM/FM COM ENTRADA USB E BLUETOOTH, TV 42"
+      </div>
+      <div class="bg" style="background-image: url(https://www.guiademoteis.com.br/Images/moteis/1601-Motel-Guia/suites/16548-Guia-Especial/fotos/293d2b72-41a8-4f8b-98f8-064a58f86869-suites.jpg);">
+      </div>
+    </div>
+</div>
+
+<div class="image" style="background-image: url(https://www.guiademoteis.com.br/Images/moteis/1601-Motel-Guia/suites/15846-Hidro-Guia/fotos/foto10-suites.jpg);">
+  <div class="title"><center /><h5>SUÍTE GUIA HIDRO PRIVATIVA</h5></div>
+    <div class="all">
+      <div class="text">
+        <h2>PREÇOS E PERÍODOS</h2>
+        <h3>
+2ª APÓS AS 6H ATÉ 6ª ÀS 6H - 2H	R$ 79,90<br>
+2ª APÓS AS 6H ATÉ 6ª ÀS 6H - 3H	R$ 104,90<br>
+2ª APÓS AS 6H ATÉ 6ª ÀS 6H - 12H	R$ 139,90<br>
+6ª APÓS AS 6H ATÉ 2ª ÀS 6H, FERIADOS E VÉSPERAS - 2H	R$ 89,90<br>
+6ª APÓS AS 6H ATÉ 2ª ÀS 6H, FERIADOS E VÉSPERAS - 3H	R$ 114,90<br>
+DOM APÓS AS 6H ATÉ 2ª ÀS 6H - 12H	R$ 149,90</h3>
+<h2>PERNOITES</h2>
+<h3>
+6ª, SAB, VÉSP. E FERIADOS A PARTIR DAS 2H ATÉ AS 12H	R$ 149,90</h3>
+<h2>ESSA SUÍTE TEM:</h2>
+<h3 />
+
+AR-CONDICIONADO, DUCHA DUPLA, ESPELHO NO TETO, FRIGOBAR, GARAGEM PRIVATIVA, HIDRO DUPLA, INTERNET WI-FI, MESA PARA REFEIÇÕES, POLTRONA ERÓTICA, SECADOR DE CABELO, SOM AM/FM COM ENTRADA USB E BLUETOOTH, TV 42"      
+      </div>
+      <div class="bg" style="background-image: url(https://www.guiademoteis.com.br/Images/moteis/1601-Motel-Guia/suites/15846-Hidro-Guia/fotos/foto10-suites.jpg);"></div>
+    </div>
+</div>
+
+<div class="image" style="background-image: url(https://www.guiademoteis.com.br/Images/moteis/1601-Motel-Guia/suites/16547-Guia-Luxo/fotos/b2b2936c-30f4-4b33-8b8e-b81f70b2595f-suites.jpg);">
+  <div class="title"><center /><h5>SUÍTE GUIA SUPER LUXO</h5></div>
+    <div class="all">
+      <div class="text">
+        <h2>PREÇOS E PERÍODOS</h2>
+        <h3>
+2ª APÓS AS 6H ATÉ 6ª ÀS 6H - 2H	R$ 86,00<br>
+2ª APÓS AS 6H ATÉ 6ª ÀS 6H - 3H	R$ 109,90<br>
+2ª APÓS AS 6H ATÉ 6ª ÀS 6H - 12H	R$ 149,90<br>
+6ª APÓS AS 6H ATÉ 2ª ÀS 6H, FERIADOS E VÉSPERAS - 3H	R$ 119,90<br>
+6ª APÓS AS 6H ATÉ 2ª ÀS 6H, FERIADOS E VÉSPERAS - 2H	R$ 95,90<br>
+DOM APÓS AS 6H ATÉ 2ª ÀS 6H - 12H	R$ 159,90</h3>
+<h2>PERNOITES</h2>
+<h3>
+6ª, SAB, VÉSP. E FERIADOS A PARTIR DAS 2H ATÉ AS 12H	R$ 159,90</h3>
+<h2>ESSA SUÍTE TEM:</h2>
+<h3 />
+AR-CONDICIONADO, DUCHA, ESPELHO NO TETO, FRIGOBAR, GARAGEM PRIVATIVA, HIDRO DUPLA, ILUMINAÇÃO ESPECIAL, INTERNET WI-FI (SEM FIO), MÁQUINA DE FUMAÇA, MESA PARA REFEIÇÕES, PISTA DE DANÇA, POLE DANCE, POLTRONA ERÓTICA, SECADOR DE CABELO, SMART TV 42", SOM AM/FM COM ENTRADA USB E BLUETOOTH      
+      </div>
+      <div class="bg" style="background-image: url(https://www.guiademoteis.com.br/Images/moteis/1601-Motel-Guia/suites/16547-Guia-Luxo/fotos/b2b2936c-30f4-4b33-8b8e-b81f70b2595f-suites.jpg);">
+      </div>
+    </div>
+</div>
+<br><br>
+</div>
+
+<div class="content__item" data-content="local">
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14620.047774990011!2d-46.7797561!3d-23.6397433!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2dd4ae034c05ce4!2sMotel%20Guia!5e0!3m2!1spt-BR!2sbr!4v1617552622267!5m2!1spt-BR!2sbr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe><br><br>
+</div>
+
+<div class="content__item" data-content="contato">
+<img src="http://www.moteluproad.com.br/img/cartao_fidelidade_uproad.jpg" alt="" width="100%" height="600"><br><br>
+</div>
+<center />
+<h1>&#10032; &#10032; &#10032; &#10032; &#10032;</h1>
+<table width='100%' border=0 style='margin:0; padding:0;'>
+<td width='50%'><center /><a href="tel:11962038325"><div class='mod' style='width:450px; border-radius:50px; '><img src="http://www.desentupidorasbauru.com.br/wp-content/uploads/2019/10/LIGUEAGORA-1.png" alt="" width="400" height="100"></div></a></td>
+<td width='50%'><center /><a href="https://api.whatsapp.com/send?phone=+5511962038325"><div class='mod' style='width:450px; border-radius:50px; '><img src="https://guiagoiania.com/up/clientes/770/botao-de-whatsapp-3d.png" alt="" width="400" height="100"></div></a></td>
+</table><br>
+<table width='100%' border=0 style='margin:0; padding:0;'>
+<td><center /><a href=""><div class='mod' style='width:400px; border-radius:50px; '></div></a></td>
+</table><br><br>
+
+<h2><-- Horário de Funcionamento --></h2>
+<table width='100%' border=0>
+<td width='50%'><center /><div class='mod2'>&#10003; Domingo &#9758; 24hs</div></a></td>
+<td width='50%'><center /><div class='mod2'>&#10003; Feriado &#9758; 24hs</div></a></td>
+</table><br>
+<table width='100%' border=0>
+<td width='50%'><center /><div class='mod2'>&#10003; Segunda &#9758; 24hs</div></a></td>
+<td width='50%'><center /><div class='mod2'>&#10003; Terça &#9758; 24hs</div></a></td>
+</table><br>
+<table width='100%' border=0>
+<td width='50%'><center /><div class='mod2'>&#10003; Quarta &#9758; 24hs</div></a></td>
+<td width='50%'><center /><div class='mod2'>&#10003; Quinta &#9758; 24hs</div></a></td>
+</table><br>
+<table width='100%' border=0>
+<td width='50%'><center /><div class='mod2'>&#10003; Sexta &#9758; 24hs</div></a></td>
+<td width='50%'><center /><div class='mod2'>&#10003; Sábado &#9758; 24hs</div></a></td>
+</table>
+<br><br>
+<a href="https://www.google.com/search?q=motel+guia&bih=937&biw=1920&hl=pt-BR&sxsrf=ALeKk01_euU0hZagvqSgUP2dDq58GxDrtg%3A1617553216120&source=hp&ei=QOdpYO_0BLWV5OUPwr-ekAc&iflsig=AINFCbYAAAAAYGn1UOFbZyTPLBluAh5wySX0fMM1tjsc&oq=motel+&gs_lcp=Cgdnd3Mtd2l6EAMYADIECCMQJzIGCCMQJxATMgQIIxAnMgoIABDHARCjAhBDMhAIABCxAxCDARDHARCvARBDMgcIABDJAxBDMgUIABCSAzIFCAAQkgMyDQgAELEDEMcBEK8BEEMyCggAEMcBEK8BEEM6BAgAEEM6BQgAELEDOggIABCxAxCDAToHCAAQsQMQQzoKCAAQsQMQgwEQQ1C2CliRFGDvImgAcAB4AoABygSIAZ4PkgEJMC4yLjIuNS0ymAEAoAEBqgEHZ3dzLXdpeg&sclient=gws-wiz#lrd=0x94ce53870305a5cd:0x2dd4ae034c05ce4,3,,,"><img src="https://casadebateriawj.com.br/wp-content/uploads/2018/09/comente-no-google-png.png" alt="" width="250" height="250" style=''></a><br><br>
+</div>
+</section>
+<script src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-157cd5b220a5c80d4ff8e0e70ac069bffd87a61252088146915e8726e5d9f147.js"></script>				
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='https://rawgit.com/romulomachado/simpletabs/master/dist/simpletabs.js'></script>
+<div class='bot'>&copy; [Vip]-[Services] &lang; --[Todos os direitos reservados]-- &rang;</div>
+</BODY>
+</HTML>
