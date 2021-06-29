@@ -1,0 +1,686 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<HTML>
+<HEAD>
+<title>Pizzaria Tropical</title>
+<meta charset="utf-8" />
+<meta name="title" content="Pizzaria Tropical" />
+<meta name="description" content="Av. da Moenda Velha, 391 - Parque Independencia, São Paulo - SP"/>
+<meta name="robots" content="index,follow" />
+<meta name="keywords" content="Pizzaria Tropical" />
+<META NAME="GENERATOR" CONTENT="MAX's HTML Beauty++ 2004">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link rel="shortcut icon" type="image/x-icon" href="https://library.kissclipart.com/20191118/kfe/kissclipart-blog-icon-free-time-icon-blogging-icon-bb0911eb56bd2066.png" /> 
+<link href="https://fonts.googleapis.com/css2?family=Stardos+Stencil&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Amarante&family=Stardos+Stencil&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Buda:wght@300&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Londrina+Shadow&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Jacques+Francois+Shadow&family=Lancelot&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<SCRIPT LANGUAGE="JavaScript"> 
+<!-- Disable 
+function disableselect(e){ 
+return false 
+} 
+
+function reEnable(){ 
+return true 
+} 
+
+//if IE4+ 
+document.onselectstart=new Function ("return false") 
+document.oncontextmenu=new Function ("return false") 
+//if NS6 
+if (window.sidebar){ 
+document.onmousedown=disableselect 
+document.onclick=reEnable 
+} 
+//--> 
+</script> 
+<style>
+body {
+	margin: 0;
+	padding: 0;
+	background:;
+	}
+
+.top2{
+     width:100%;
+     height:550px;
+     Background:black;
+     background:rgba(0,0,0,.6);
+     align-items: center;
+     display: flex;
+     justify-content: center;
+     margin:0 auto;
+     }
+.top{
+     width:100%;
+     height:550px;
+     background:url(https://scontent.fcgh22-1.fna.fbcdn.net/v/t1.6435-9/136060322_4925656734173962_9022753003017144636_n.png?_nc_cat=107&ccb=1-3&_nc_sid=e3f864&_nc_ohc=Tp5VB6oGRXgAX98fM5j&_nc_ht=scontent.fcgh22-1.fna&oh=546ca3de81c04ce44f06400a909658f1&oe=60DF89EC); background-size:100% 100%;
+     }
+
+.main{
+     width:1000px;
+     margin:0 auto;
+     background:#fff;
+	 }
+.footer{
+     width:100%;
+     height:450px;
+     background:#000;
+     align-items: center;
+     display: flex;
+     justify-content: center;
+     margin:0 auto;
+     }
+.footer2{
+     width:100%;
+     height:50px;
+     background:#333;
+     align-items: center;
+     display: flex;
+     justify-content: center;
+     margin:0 auto;
+     color:#fff;
+     }     
+h1 {
+  font-size: 4em;
+  font-family: 'Stardos Stencil', cursive;
+  line-height: 1.3; color:white;
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 #666, 0 -2px black;
+  }	
+h4{font-family: 'Lancelot', cursive; font-size:25px; color:#333;}  
+h3{font-family: 'Buda', cursive; padding:10px; text-align: justify;}  
+h2{font-family: 'Stardos Stencil', cursive; line-height: 1.3;  font-size:30px;  color:#fff; text-shadow: -2px 0 black, 0 2px black, 2px 0 #666, 0 -2px black; margin-top:-50px;} 
+a{text-decoration: none; color:#999;}   
+p{
+  font-size:20px;
+  font-family: 'Stardos Stencil', cursive;
+  color:black;
+  margin-top:-10px;
+  
+}
+.imagefloat {
+	float: left;
+	padding: 2px;
+	border:;
+	margin: 0 0 10px 10px;
+	}
+h5{font-family: 'Amarante', cursive;
+     font-family: 'Stardos Stencil', cursive;
+     font-size:35px;
+     color:#666;
+	 padding:;}
+	 
+	 
+.content__item {
+  width:100%; 
+  display: none;
+}
+
+.content__item.is-active {
+  display: block;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.toggle-canvas {
+  background: none;
+  border-radius: ;
+  text-shadow: none;
+  border: 0;
+  outline: none;
+  font-size: 36px;
+  padding: 0;
+  margin: 0;
+  position: ;
+  top: 10px;
+  color: #fff;
+  cursor:pointer;
+}
+.toggle-canvas:hover,
+.toggle-canvas:focus {
+  box-shadow: none;
+  text-shadow: none;
+  border: none;
+  outline: none;
+}
+.offset-canvas {
+  top: 0;
+  left: 0;
+  bottom: 0;
+  position: fixed;
+  width: 300px;
+  height: 100%;
+  border-right:1px solid #666;
+  backdrop-filter: blur(50px);
+  -webkit-backdrop-filter: blur(50px);
+  z-index: 99999999;
+  transform: translate3d(-302px,0,0);
+  transition: transform 0.4s;
+  transition-timing-function: cubic-bezier(0.7,0,0.3,1);
+}
+.offset-canvas::-webkit-scrollbar {width: 12px;/* width of the entire scrollbar */}
+.offset-canvas::-webkit-scrollbar-track { background: black;/* color of the tracking area */}
+.offset-canvas::-webkit-scrollbar-thumb {background-color: #fff;/* color of the scroll thumb */border-radius: 25px;/* roundness of the scroll thumb */border: 2px solid black; border-bottom:15px solid red;  border-top:15px solid #990000; /* creates padding around scroll thumb */}
+
+.offset-canvas .scroller {
+  height: 100%;
+  overflow-y: scroll;
+  overflow:hidden;
+}
+.offset-canvas ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.offset-canvas ul li a {
+  display: block;
+  padding: 10px;
+  text-transform: uppercase;
+  text-align: center;
+  border-bottom: 1px solid #ededed;
+  color: #999;
+  text-decoration: none;
+}
+
+.offset-canvas ul li:hover{
+  background:white;
+  border: 5px solid black;
+}
+.offset-canvas.show-canvas {
+  transform: translate3d(0,0,0);
+  transition: transform 0.8s;
+  transition-timing-function: cubic-bezier(0.7,0,0.3,1);
+}
+		
+
+
+table div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+}
+table div a{
+  width: 100%;
+  max-width: 240px;
+  height: 54px;
+  padding: 8px;
+  font-size: 0.8rem;
+  font-weight: 900;
+  color: #990000;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  box-shadow: 0 0 0 1px inset rgba(236, 232, 225, 0.3);
+  position: relative;
+  margin: 10px 0;
+}
+
+table div a.white:hover > p {
+  color: #ece8e1;
+}
+table div a.white > p {
+  background: #ece8e1;
+  color: #0f1923;
+}
+table div a.white > p span.base {
+  border: 1px solid transparent;
+}
+table div a.transparent:hover > p {
+  color: #ece8e1;
+}
+table div a.transparent:hover > p span.text {
+  box-shadow: 0 0 0 1px #ece8e1;
+}
+table div a.transparent > p {
+  background: #0f1923;
+  color: #ece8e1;
+}
+table div a.transparent > p span.base {
+  border: 1px solid #ece8e1;
+}
+table div a:after, div a:before {
+  content: "";
+  width: 1px;
+  position: absolute;
+  height: 8px;
+  background: #0f1923;
+  left: 0;
+  top:;
+  transform: translateY(-50%);
+}
+table div a:before {
+  right: 0;
+  left: initial;
+}
+table div a p {
+  margin: 0;
+  height: 54px;
+  line-height: 54px;
+  box-sizing: border-box;
+  z-index: 1;
+  left: 0;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+table div a p span.base {
+  box-sizing: border-box;
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  border: 1px solid #ff4655;
+}
+table div a p span.base:before {
+  content: "";
+  width: 2px;
+  height: 2px;
+  left: -1px;
+  top: -1px;
+  background: #0f1923;
+  position: absolute;
+  transition: 0.3s ease-out all;
+}
+table div a p span.bg {
+  left: -5%;
+  position: absolute;
+  background: #ff4655;
+  width: 0;
+  height: 100%;
+  z-index: 3;
+  transition: 0.3s ease-out all;
+  transform: skewX(-10deg);
+}
+table div a p span.text {
+  z-index: 4;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+table div a p span.text:after {
+  content: "";
+  width: 4px;
+  height: 4px;
+  right: 0;
+  bottom: 0;
+  background: #0f1923;
+  position: absolute;
+  transition: 0.3s ease-out all;
+  z-index: 5;
+}
+table div a:hover {
+  color: #ece8e1;
+}
+table div a:hover span.bg {
+  width: 110%;
+}
+table div a:hover span.text:after {
+  background: #ece8e1;
+}
+
+
+
+.btn {
+  letter-spacing: 0.1em;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 45px;
+  max-width: 300px;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 100%;
+}
+.btn:hover {
+  text-decoration: none;
+}
+
+/*btn_background*/
+.effect04 {
+  --uismLinkDisplay: var(--smLinkDisplay, inline-flex);
+  display: var(--uismLinkDisplay);
+  color: #000;
+  outline: solid  2px #999;
+  position: relative;
+  transition-duration: 0.4s;
+  overflow: hidden;
+  border-radius:5px;
+}
+
+.effect04::before,
+.effect04 span{
+    margin: 0 auto;
+	transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
+	transition-duration: 0.4s;
+}
+
+/* ??1??? */
+.effect04:hover{
+  background-color: #000;
+}
+
+/* HOVER?????1??? */
+.effect04:hover span{
+  -webkit-transform: translateY(-400%) scale(-0.1,20);
+          transform: translateY(-400%) scale(-0.1,20);
+}
+
+/*??2*/
+.effect04::before{
+  content: attr(data-sm-link-text);
+	color: #FFF;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  -webkit-transform: translateY(500%) scale(-0.1,20);
+          transform: translateY(500%) scale(-0.1,20);
+}
+
+/* HOVER?????2??? */
+.effect04:hover::before{
+  letter-spacing: 0.05em;
+  -webkit-transform: translateY(0) scale(1,1);
+          transform: translateY(0) scale(1,1);
+}
+
+
+
+
+
+.bota {
+  width:400px;
+  margin:0; font-family: 'Stardos Stencil', cursive; font-size:30px;
+  border: 2px solid #999; border-radius:25px;
+  text-align: center;
+  position: relative;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  -webkit-transition: all .3s ease-out;
+  -o-transition: all .3s ease-out;
+  transition: all .3s ease-out;
+}
+
+.texto {visibility: hidden;}
+
+.flipe-front, 
+.flipe-back {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    -webkit-transform-style: flat;
+    transform-style: flat;
+    -webkit-transition: -webkit-transform .3s ease-out;
+    -o-transition: -o-transform .3s ease-out;
+    transition: transform .3s ease-out;
+}
+
+.flipe-front {
+    color: #313131;
+    border:;
+    background-color: transparent;
+    -webkit-transform: rotateX(0deg) translateZ(25px);
+    -ms-transform: rotateX(0deg) translateZ(25px);
+    -o-transform: rotateX(0deg) translateZ(25px);
+    transform: rotateX(0deg) translateZ(25px);
+}
+
+.flipe-back {
+  color: #fff;
+  background-color: #313131;
+   border: 2px solid black; border-radius:25px;
+  -webkit-transform: rotateX(90deg) translateZ(25px);
+  -ms-transform: rotateX(90deg) translateZ(25px);
+  -o-transform: rotateX(90deg) translateZ(25px);
+  transform: rotateX(90deg) translateZ(25px);
+}
+
+.bota:hover .flipe-front {
+    -webkit-transform: rotateX(-90deg) translateZ(25px);
+    -ms-transform: rotateX(-90deg) translateZ(25px);
+    -o-transform: rotateX(-90deg) translateZ(25px);
+    transform: rotateX(-90deg) translateZ(25px);
+}
+
+.bota:hover .flipe-back {
+    -webkit-transform: rotateX(0deg) translateZ(25px);
+    -ms-transform: rotateX(0deg) translateZ(25px);
+    -o-transform: rotateX(0deg) translateZ(25px);
+    transform: rotateX(0deg) translateZ(25px);
+}
+
+@media only screen and (max-device-width: 900px) {
+.screen{height:1100px;} 
+}
+</style>
+
+  
+<script>
+  window.console = window.console || function(t) {};
+</script>
+<script>
+  if (document.location.search.match(/type=embed/gi)) {
+    window.parent.postMessage("resize", "*");
+  }
+</script>
+<script>
+(function() {
+  $(function() {
+    var hashTabs;
+    hashTabs = function() {
+      return {
+        _element: '',
+        element: function(element) {
+          return this._element = element;
+        },
+        updateTab: function() {
+          this.updateTabLink();
+          this.updateTabContainer();
+          return $('body').scrollTop(0);
+        },
+        updateTabLink: function() {
+          return this._element.parent().addClass('is-active').siblings('.is-active').removeClass('is-active');
+        },
+        updateTabContainer: function() {
+          var contentTab, dataTab;
+          dataTab = this._element.data('tab');
+          contentTab = $('[data-content=\'' + dataTab + '\']');
+          if ($(this._element).attr('data-tab')) {
+            $('[data-content]').not(contentTab).removeClass('is-active');
+          }
+          return contentTab.each(function() {
+            return $(this).addClass('is-active');
+          });
+        },
+        updateURLHash: function() {
+          return window.location.hash = this._element.data('tab');
+        }
+      };
+    };
+    if ($('[data-tab]').length) {
+      $(window).on('load', function() {
+        var hash, tabs;
+        if (window.location.hash !== '') {
+          hash = window.location.hash.replace('#', '');
+          tabs = new hashTabs();
+          tabs.element($('[data-tab=\'' + hash + '\']'));
+          return tabs.updateTab();
+        } else {
+          tabs = new hashTabs();
+          tabs.element($('[data-tab]').first());
+          return tabs.updateTab();
+        }
+      });
+      $(window).on('hashchange', function() {
+        var hash, tabs;
+        hash = window.location.hash.replace('#', '');
+        tabs = new hashTabs();
+        tabs.element($('[data-tab=\'' + hash + '\']'));
+        return tabs.updateTab();
+      });
+      return $('[data-tab]').on('click', function(e) {
+        var tabs;
+        tabs = new hashTabs();
+        tabs.element($(this));
+        tabs.updateURLHash();
+        return e.preventDefault();
+      });
+    }
+  });
+
+}).call(this);
+</script>
+</HEAD>
+
+<BODY>
+<div class="offset-canvas">
+  <div class="scroller">
+<table width='100%'><td><div>
+<a data-tab="home" href="#home" class="transparent"><p><span class="bg"></span><span class="base"></span><span class="text">HOME</span></p></a>
+<a data-tab="empresa" href="#empresa" class="white"><p><span class="bg"></span><span class="base"></span><span class="text">EMPRESA</span></p></a>
+<a data-tab="promocoes" href="#promocoes"  class="transparent"><p><span class="bg"></span><span class="base"></span><span class="text">PROMOÇÕES</span></p></a>
+	
+<a data-tab="home" href="#home" class="white"><p><span class="bg"></span><span class="base"></span><span class="text">DELIVERY</span></p></a>
+<a data-tab="x3studio" href="#x3studio" class="transparent"><p><span class="bg"></span><span class="base"></span><span class="text">RESERVAS</span></p></a>
+<a data-tab="marketing" href="#marketing"  class="white"><p><span class="bg"></span><span class="base"></span><span class="text">CARTÃO FIDELIDADE</span></p></a>	
+</div></td></table>   
+      
+  </div>
+</div>
+
+<div class='top'><div class='top2'>
+<div><center />
+<img src="https://scontent.fcgh22-1.fna.fbcdn.net/v/t1.6435-9/136163025_4928999200506382_926104051813529766_n.jpg?_nc_cat=108&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=ENZoPfLm7ckAX_YggtM&_nc_ht=scontent.fcgh22-1.fna&oh=808c75aa1ac034e567beca01c1fa7d91&oe=60DFA86B" alt="" width="200" height="200"  style="border-radius:50%; border:2px solid #990000;" ><br>
+<h1>Pizzaria Carlluccio</h1><br>
+<h2>Av. Coronel Teixeira, 6089 - Ponta Negra, Manaus - AM<br> (92) 3656-5225 / (92) 98264-9699 </h2></div></div>
+</div>
+<table width='100%' style='background:url(https://1.bp.blogspot.com/-1JJclGNRVNQ/YNo2h68CZEI/AAAAAAAAKcQ/UJbU8pn5i-opnuIG357Kts7gcHDQryO2wCLcBGAsYHQ/s0/8.jpg); backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px);'>
+<td><div><a href="#"><p><span class="bg"></span><span class="base"></span><span class="text"><button class="toggle-canvas">&#9783; Menu</button></span></p></a></div></td></table>
+
+
+<div class='main'>
+<section class="content">
+<div class="content__item" data-content="home"><br><br><br><br><br><br><center />
+<a href="https://api.whatsapp.com/send?phone=5511962038325&text=Ol%C3%A1.%20Boa%20noite!%20Gostaria%20de%20fazer%20um%20pedido%20pelo%20app."><img src="https://1.bp.blogspot.com/-9jvZnIyfvl4/YGy3hRKU0tI/AAAAAAAAKHw/7aAblyVSdD0Wa5gQOkzm6xsRq0ojoXyvwCLcBGAsYHQ/s0/pedidos.png" alt="" width="400" height="110" style=''></a>
+<br><br><br><br><br><br>
+
+<table width='100%' border=0>
+<td width='50%'><center /><a href="tel:11962038325" title="Ligar agora"><div class="btn effect04" data-sm-link-text="<<< Ligar Agora >>>"><i class="fa fa-phone" style="font-size:45px;color:#990000"></i><span> |||||| Telefone ||||||</span></div></a></td>
+<td width='50%'><center /><a href="https://api.whatsapp.com/send?phone=+5511962038325" title="Chamar no whatsapp"><div class="btn effect04" data-sm-link-text="<<< Chamar no Whatsapp >>>"><i class="fa fa-whatsapp" style="font-size:45px;color:green"></i><span> |||||| Whatsapp ||||||</span></div></a></td>
+</table><br>
+<table width='100%' border=0>
+<td width='50%'><center /><a href="https://www.facebook.com" title="Facebook"><div class="btn effect04" data-sm-link-text="<<< Acessar o Facebook >>>"><i class="fa fa-facebook" style="font-size:45px;color:blue"></i><span> |||||| Facebook ||||||</span></div></a></td>
+<td width='50%'><center /><a href="https://www.instagram.com" title="Instagram"><div class="btn effect04" data-sm-link-text="<<< Acessar o Instagram >>>"><i class="fa fa-instagram" style="font-size:45px;color:#B45F04"></i><span> |||||| Instagram ||||||</span></div></a></td>
+</table><br>
+<table width='100%' border=0>
+<td width='50%'><center /><a href="" title="Avalie-nos no Google"><div class="btn effect04" data-sm-link-text="<<< Avalie-nos no Google >>>"><i class="fa fa-google" style="font-size:45px;color:#FF4000"></i><span> |||||| Feeedback ||||||</span></div></a></td>
+<td width='50%'><center /><a href="mailto:example@hotmail.com" title="Enviar e-mail"><div class="btn effect04" data-sm-link-text="<<< Enviar E-mail >>>"><i class="fa fa-envelope" style="font-size:45px;color:#0489B1"></i><span> |||||| E-mail ||||||</span></div></a></td>
+</table><br><br><br><br><br><br>
+
+<table width='100%' border=0 style='margin:0; padding:0;'>
+<td width='40%'><center /><a href="tel:11962038325"><div style='width:450px; border-radius:50px; '><img src="https://1.bp.blogspot.com/-kj5SNcm7p34/YGslyjbeMBI/AAAAAAAAKG4/GcaoPTc8tk0cZzc9fw9TFeHva9Zuhl-BgCLcBGAsYHQ/s0/Reserva.jpg" alt="" width="400" height="110"></div></a></td>
+<td width='40%'><center /><a href="https://api.whatsapp.com/send?phone=+5511962038325"><div style='width:450px; border-radius:50px; '><img src="https://logowiki.net/wp-content/uploads/imgp/Cotripal-Logo-1-4927.png" alt="" width="400" height="110"></div></a></td>
+</table><br><br><br><br><br><br><br><br>
+
+<table width='100%' border=0>
+<td><center /><span class="bota"><span class="texto">Text</span><span class="flipe-front">Horário de Atendimento</span><span class="flipe-back">Horário de Atendimento</span></span></td></table><br><br><br>
+<table width='100%' border=0>
+<td width='50%'><center /><span class="bota"><span class="texto">Text</span><span class="flipe-front">&#10003; Segunda</span><span class="flipe-back">&#9758; 18:00–23:00</span></span></td>
+<td width='50%'><center /><span class="bota"><span class="texto">Text</span><span class="flipe-front">&#10003; Terça</span><span class="flipe-back">&#9758; 18:00–23:00</span></span></td>
+</table><br><br><br>
+<table width='100%' border=0>
+<td width='50%'><center /><span class="bota"><span class="texto">Text</span><span class="flipe-front">&#10003; Quarta</span><span class="flipe-back">&#9758; 18:00–23:00</span></span></td>
+<td width='50%'><center /><span class="bota"><span class="texto">Text</span><span class="flipe-front">&#10003; Quinta</span><span class="flipe-back">&#9758; 18:00–23:00</span></span></td>
+</table><br><br><br>
+<table width='100%' border=0>
+<td width='50%'><center /><span class="bota"><span class="texto">Text</span><span class="flipe-front">&#10003; Sexta</span><span class="flipe-back">&#9758; 18:00–23:00</span></span></td>
+<td width='50%'><center /><span class="bota"><span class="texto">Text</span><span class="flipe-front">&#10003; Sábado</span><span class="flipe-back">&#9758; 18:00–23:00</span></span></td>
+</table><br><br><br>
+<table width='100%' border=0>
+<td width='50%'><center /><span class="bota"><span class="texto">Text</span><span class="flipe-front">&#10003; Domingo</span><span class="flipe-back">&#9758; 18:00–23:00</span></span></td>
+<td width='50%'><center /><span class="bota"><span class="texto">Text</span><span class="flipe-front">&#10003; Feriado</span><span class="flipe-back">&#9758; 18:00–23:00</span></span></td>
+</table>
+<br><br><br><br><br><br>
+</div>
+
+<div class="content__item" data-content="empresa"><br>
+<img class='screen' src="https://scontent.fcgh22-1.fna.fbcdn.net/v/t1.6435-9/120571292_4528131393926500_928470098371766751_n.jpg?_nc_cat=106&ccb=1-3&_nc_sid=9267fe&_nc_ohc=_u7x3537iVUAX-4W3Bh&tn=ZDA0hGJeU7WKb2NZ&_nc_ht=scontent.fcgh22-1.fna&oh=fa8ad51413d3c4aee3984159ffbfe6ca&oe=60E0A0A2" alt="" width="100%" height="900"><br><br>
+<img class='screen' src="https://scontent.fcgh22-1.fna.fbcdn.net/v/t1.6435-9/78901086_3325367704202881_8424737556951728128_n.jpg?_nc_cat=109&ccb=1-3&_nc_sid=9267fe&_nc_ohc=SdllOPR_RsoAX9jZE9Q&tn=ZDA0hGJeU7WKb2NZ&_nc_ht=scontent.fcgh22-1.fna&oh=99c82cf03f0f7aa034567426ae9ec9b8&oe=60E17B6D" alt="" width="100%" height="900"><br><br>
+<img class='screen' src="https://scontent.fcgh22-1.fna.fbcdn.net/v/t1.6435-9/33248952_1976565082416490_6654777106158845952_n.jpg?_nc_cat=108&ccb=1-3&_nc_sid=9267fe&_nc_ohc=W8vZJcR8BjIAX9ptFFV&_nc_ht=scontent.fcgh22-1.fna&oh=9eceee64887bf8aa2aa3e006bcf5bc94&oe=60DF8E27" alt="" width="100%" height="900"><br><br>
+</div>
+
+<div class="content__item" data-content="promocoes"><br>
+<img class='screen' src="https://scontent.fcgh22-1.fna.fbcdn.net/v/t1.6435-9/146318304_5051741378232163_7279058786032180399_n.jpg?_nc_cat=109&ccb=1-3&_nc_sid=9267fe&_nc_ohc=gGFrdAM6g94AX_EimPA&_nc_ht=scontent.fcgh22-1.fna&oh=b60cceb34b502c44d25d7664c2175648&oe=60E0EE82" alt="" width="100%" height="900"><br><br>
+<img class='screen' src="https://scontent.fcgh22-1.fna.fbcdn.net/v/t1.6435-9/83488602_3464189583654025_2972443275245387776_n.jpg?_nc_cat=106&ccb=1-3&_nc_sid=9267fe&_nc_ohc=SXLTE5XuKMUAX8uVJn3&_nc_ht=scontent.fcgh22-1.fna&oh=765c1708897b566392d4afc7f912dc09&oe=60E0BAF5" alt="" width="100%" height="900"><br><br>
+<img class='screen' src="https://scontent.fcgh22-1.fna.fbcdn.net/v/t1.6435-9/153025119_5135538999852400_510244495456269239_n.jpg?_nc_cat=102&ccb=1-3&_nc_sid=9267fe&_nc_ohc=RkRzGjkRhmQAX_qJ2tA&_nc_ht=scontent.fcgh22-1.fna&oh=9e8bc79ae7ab62e0694d418a3c75ac5a&oe=60E021D1" alt="" width="100%" height="900"><br><br>
+</div>
+</section>
+</div>
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15936.002876669005!2d-60.0513138!3d-3.0944668!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7314fafe6244e91c!2sPizzaria%20Carlluccio!5e0!3m2!1spt-BR!2sbr!4v1624197981503!5m2!1spt-BR!2sbr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+<div class='footer'><table style='width:1000px;'>
+<td><font color='#999'><i />
+<i class="fa fa-map-marker" style="font-size:25px; color:#666"></i> Av. Coronel Teixeira, 6089 - Ponta Negra, Manaus - AM<br><br>
+<i class="fa fa-phone-square" style="font-size:25px; color:#666"></i> 92 3656-5225<br><br>
+<i class="fa fa-whatsapp" style="font-size:25px; color:#666"></i> 92 98264-9699<br><br>
+<i class="fa fa-envelope" style="font-size:25px; color:#666"></i> carllucciopizzaria@hotmail.com<br><br>
+<i class="fa fa-copyright" style="font-size:25px; color:#666"></i> copyright © - Pizzaria Carlluccio<br><br>
+<i class="fa fa-registered" style="font-size:25px; color:#666"></i> Todos os direitos reservados</td>
+<th width='20%'>
+<i class="fa fa-cc-discover" style="font-size:50px; color:#666"></i><br>
+<i class="fa fa-cc-jcb" style="font-size:50px; color:#666"></i><br>
+<i class="fa fa-cc-amex" style="font-size:50px; color:#666"></i><br>
+<i class="fa fa-cc-diners-club" style="font-size:50px; color:#666"></i><br>
+<i class="fa fa-cc-mastercard" style="font-size:50px; color:#666"></i><br>
+<i class="fa fa-cc-visa" style="font-size:50px; color:#666"></i><br></th>
+<td width='33%'>
+<a href="https://api.whatsapp.com/send?phone=+5511962038325"><img src="https://lh3.googleusercontent.com/proxy/E_TUYqy6B3Z2H2M1VNbeupWUGf2sYLDk21UvBwcGeFpigOayPLa9VtqS3c5Gf0P2QtdWCatmU-CuzMRyQbdXE2lyVfBzkyCoub8hw3Bdc0onya49XUhZUt7oPQ6qNFd2op3JgcS2eoRRN7TCcKNUvP31" alt="" width="100%" height="100" style=''></a><br><br><br>
+<a href="https://api.whatsapp.com/send?phone=+5511962038325"><img src="https://pngimage.net/wp-content/uploads/2018/05/fa%C3%A7a-sua-reserva-png-7.png" alt="" width="100%" height="100" style=''></a><br><br><br>
+<a href="https://api.whatsapp.com/send?phone=+5511962038325"><img src="https://logowiki.net/wp-content/uploads/imgp/Cotripal-Logo-1-4927.png" alt="" width="100%" height="100" style=''></a>
+</td></table>
+</div>
+<div class='footer2'><i>desenvolvido por</i> <a href='' target='_blanck'> X3Studio</a></div>
+<script src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-157cd5b220a5c80d4ff8e0e70ac069bffd87a61252088146915e8726e5d9f147.js"></script>				
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='https://rawgit.com/romulomachado/simpletabs/master/dist/simpletabs.js'></script>
+
+</BODY>
+</HTML>
+<script src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-157cd5b220a5c80d4ff8e0e70ac069bffd87a61252088146915e8726e5d9f147.js"></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script id="rendered-js" >
+jQuery(document).ready(function ($) {
+  "use strict";
+
+  $(".toggle-canvas").click(function () {
+    $(".offset-canvas").toggleClass("show-canvas");
+  });
+  $(".offset-canvas ul li a").click(function () {
+    $(".offset-canvas").removeClass("show-canvas");
+  });
+});
+
+/*
+  First "click/function" is to show or hide responsive menu when clicking on the button.
+  Second "click/function" is to hide the menu when a user clicks on a href in responsive menu. Usefull if you're using one page template.
+*/
+//# sourceURL=pen.js
+    </script>
+
+  
+
+</body>
+</html>
