@@ -304,46 +304,6 @@ html{
 	margin-bottom: 8px;
 }
 
-@media only screen and (max-device-width: 900px) {
-section>div{
-  width:100%;
-  height:800px;
-  vertical-align:middle;
-  }	
-.servicos{
-    width: 100%;
-    height:70vh;
-	padding:5px;
-	background:#5F9EA0;
-	align-items: center;
-    display: flex;
-    justify-content: center;
-} 
- 
-.planos{
-    width: 100%;
-    height:70vh;
-	padding:5px;
-	background:#ADD8E6;
-    justify-content: center;
-}
-section2{
-    width: 1000px;
-	
-}
-section2>div{
-  background:white;
-  width:100%;
-  position:relative;
-  display:inline-block;
-  margin:10px;
-  padding:20px;
-  vertical-align:middle;
-  border: 2px solid black;
-  border-radius:20px;
-  }
-}
-
 </style>
 
 <script>
@@ -355,10 +315,10 @@ section2>div{
   }
 </script>
 </head>
-<body>
+<body id="home"  class="home">
 <div class='capa'>
 <div class='topo'><div class='topo2'>
-<table id="home"  class="home" border=0><td width='60%'><a href="#home"><img src="https://1.bp.blogspot.com/-ZlxKvDESqew/YOHZT9ft9cI/AAAAAAAAKmM/P3qVmDjmm6wEJMxVcwOKwMnpGFCJwnkjwCLcBGAsYHQ/s0/x3studio.png" width='300px' height='45px' alt='x3studio' /></a></td><th width='20%'><a href="#servicos">Serviços</a></th><th width='20%'><a href="#planos">Planos</a></th><th width='20%'><a href="#contato">Contato</a></th></table>
+<table border=0><td width='60%'><a href="#home"><img src="https://1.bp.blogspot.com/-ZlxKvDESqew/YOHZT9ft9cI/AAAAAAAAKmM/P3qVmDjmm6wEJMxVcwOKwMnpGFCJwnkjwCLcBGAsYHQ/s0/x3studio.png" width='300px' height='45px' alt='x3studio' /></a></td><th width='20%'><a href="#servicos">Serviços</a></th><th width='20%'><a href="#planos">Planos</a></th><th width='20%'><a href="#contato">Contato</a></th></table>
 </div></div>
 <div class='corpo'><div class='corpo2'></div>
 <h2>Site + Aplicativo <br>+ Sistema de pedidos e reservas online</h2>
@@ -417,7 +377,7 @@ $(function () {
 <p> Use o nosso software de pedidos e reservas para aumentar as suas vendas online. Por mais que seu negócio cresça, você sempre se beneficiará de pedidos ilimitados e sem taxas.</p>
 					<p>Não há outro sistema de pedidos e reservas que ajudará a expandir seus negócios como nosso sistema online para bares, restaurantes, fast-food, hotéis, motéis, salões de belezas, barbearias, etc.</p>
 					<p>Com nosso sistema de pedidos e reservas online, seus clientes podem pedir e fazer reservas/agendamentos online, direto do seu site.</p>
-                    <p>Sem site? não se preocupe, conosco , você terá muito mais do que um site. Nosso pacote inclui site + aplicativo + sistema de pedidos e reservas online. Para fazer pedidos  e reservas online, sua empresa precisará de um site.</p>
+                    <p>Sem site? não se preocupe, conosco , você terá muito mais do que um site. Nosso pacote inclui site + aplicativo + sistema de pedidos e reservas online. Além de um dispositivo para rastreio de pedidos já realizados, onde os seus clientes podem acompanhar em tempo real todo o andamento, desde a produção até a entrega.</p>
 					<p> Por um (muito) pequeno custo mensal, você terá seu próprio site impressionante com um sistema de pedidos e reservas online integrado, criado por nossa equipe para você em pouco tempo!</p>
 				
 </div>
@@ -431,7 +391,7 @@ $(function () {
 <div class="item" data-aos="fade-left" style='background: url(https://www.eatout-ordering.com/wp-content/uploads/2020/04/Promote-your-restaurant-with-online-ordering.png); background-size: 100% 100%;'></div>
 </section>
 
-<div class='servicos'>
+<div id="servicos" class='servicos'>
 <section2>
   <div data-aos="slide-up"><center><h7>CRIAÇÃO</h7></center><br>
   &#9672; Criação de Sites<br>
@@ -514,7 +474,7 @@ $(function () {
 
 
 
-<div class='planos'>
+<div id="planos"  class='planos'>
 <section2>
   <div data-aos="fade-down"><center><h7>Plano Base</h7></center><br>
   <li /> www.suamarca.com.br
